@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <header class="header">
+
+        <div class="logo">
+
+            <img class="logo-img" src="/IMAGE.jpg" alt="netflix logo">
+
+        </div>
+
+        <div class="search">
+
+            <div class="search-bar">
+
+                <input type="text" onkeyup="searchProduct()" id="search" placeholder="Search" class="search-box">
+                <img onclick="searchProduct()" class="search-icon" src="https://cdn-icons-png.flaticon.com/512/61/61088.png" alt="search icon">
+
+            </div>
+        
+    </div>
+
+
+</header>
+<nav class="navigation">
+    
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+    
+</nav>
+
+    <section class="main-content">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+        
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+        
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Clothing Store</p>
+    </footer>
+</body>
+</html>
