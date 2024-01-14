@@ -74,6 +74,16 @@
 {
     height: 20px;
 }
+.search-bar:hover{
+    width: 600px;
+    
+}
+.name{
+    font-size: x-large;
+    padding-top: 60px;
+    color: white;
+    padding-left: 0px;
+}
 
 /* movies css  */
 
@@ -148,14 +158,25 @@ footer{
 }
 .navigation{
     display: flex;
-    font-size: 50px;
+    font-size: 45px;
     text-decoration: none;
     color: black;
-    padding-left: 100px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
 }
 .navigation a{
-    padding-left: 20px;
+    justify-content: space-between;
+   margin-left: 100px;
+    text-decoration: none;
+    color: black;
+   
+    
 }
+.navigation a:hover{
+    text-shadow: 5px 5px 5px black;
+}
+
 #login{
     margin-left: 70%;
     height: 70px;
@@ -164,4 +185,19 @@ footer{
 }
 #login:hover{
     box-shadow: 10px 10px 10px black;
+}
+h6{
+    cursor: pointer;
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+.navsym{
+    font-size: larger;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+.idi{
+   display: flex;
+   justify-content: center;
 }
